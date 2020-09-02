@@ -1,0 +1,11 @@
+body {
+    background-image: url('../images/stars.jpg');
+    background-size: cover;
+}
+
+canvas {
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translateX(-50%) translateY(-50%);
+}

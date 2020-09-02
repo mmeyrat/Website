@@ -1,0 +1,37 @@
+.text_container {
+    width: 90%;
+    height: 100%;
+    margin: 2%;
+    margin-bottom: 5%;
+    padding: 3%;
+    border-radius: 20px;
+}
+
+.contacts_container {
+    display: flex;
+    margin-top: 2%;
+    justify-content: space-evenly;
+}
+
+.contact_container {
+    width: 12vw;
+    height: 12vw;
+    margin: 2%;
+    box-sizing: border-box;
+    border-radius: 15px;
+    transition: transform 0.15s ease-in;
+}
+
+.contact_container:hover {
+    transform: scale(1.08);
+    box-shadow: 0 6px 20px 0 #AAA;
+}
+
+.contact_container img {
+    position: relative;
+    width: 6vw;
+    height: 6vw;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
