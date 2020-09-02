@@ -4,7 +4,7 @@
         <meta charset="UTF-8">
         <meta content="width=device-width, initial-scale=1" name="viewport" />
         <title>Meyrat Maxime</title>
-        <link rel="icon" type="image/png" href="assets/icon.png" sizes="16x16">
+        <link rel="icon" type="image/png" href="assets/images/icon.png" sizes="16x16">
         <link rel="stylesheet" href="assets/style/style_navbar.css">     
         <link rel="stylesheet" href="assets/style/style.css">      
     </head>

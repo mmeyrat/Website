@@ -14,24 +14,23 @@
 }
 
 .contact_container {
-    width: 12vw;
-    height: 12vw;
+    position: relative;
+    width: 25%;
     margin: 2%;
+    padding-bottom: 25%;
     box-sizing: border-box;
     border-radius: 15px;
     transition: transform 0.15s ease-in;
 }
 
-.contact_container:hover {
-    transform: scale(1.08);
-    box-shadow: 0 6px 20px 0 #AAA;
+.contact_container img {
+    position: absolute;
+    width: 50%;
+    height: 50%;
+    padding: 25%;
 }
 
-.contact_container img {
-    position: relative;
-    width: 6vw;
-    height: 6vw;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
+.contact_container:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 20px 0 #AAA;
 }
