@@ -1,6 +1,6 @@
 @font-face {
-    font-family: "Signika";
-    src: url("../fonts/Signika-Regular.ttf") format("truetype");
+    font-family: "Cocogoose";
+    src: url("../fonts/Cocogoose Pro-trial.ttf") format("truetype");
 }
 
 body {
@@ -9,7 +9,7 @@ body {
     height: 100%;
     margin: 0;
     margin-bottom: 50px;
-    font-family: Signika;
+    font-family: Cocogoose;
 }
 
 #page {

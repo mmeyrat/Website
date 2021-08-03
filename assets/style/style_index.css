@@ -18,8 +18,8 @@
     width: 25%;
     margin: 2%;
     padding-bottom: 25%;
-    box-sizing: border-box;
     border-radius: 15px;
+    box-sizing: border-box;
     transition: transform 0.15s ease-in;
 }
 
