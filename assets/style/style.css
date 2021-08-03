@@ -1,6 +1,6 @@
 @font-face {
     font-family: "Cocogoose";
-    src: url("../fonts/Cocogoose Pro-trial.ttf") format("truetype");
+    src: url("../fonts/Cocogoose-Regular.ttf") format("truetype");
 }
 
 body {
@@ -46,9 +46,9 @@ body {
 
 @media screen and (min-width: 450px) {
     #page {
-        width: 60%;
-        left: 20%;
-        top: 15%;
+        width: 80%;
+        left: 10%;
+        top: 10%;
     }
 }
 
@@ -80,7 +80,7 @@ body {
     }
 }
 
-@media (prefers-color-scheme: light) {    
+@media (prefers-color-scheme: light), (prefers-color-scheme: no-preferences) {    
     body { 
         background: #DDD; 
         color: #000; 
