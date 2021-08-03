@@ -14,25 +14,19 @@ header {
     padding: 0;
 }
 
-.navbar li {
+.navbar a {
     display: table-cell;
+    color: #FFF;
+    font-size: 20px;
+    list-style-type: none;
+    text-decoration: none;
     text-align: center;
     vertical-align: middle;
-    border-right: solid 2px #3d3d3d;
     transition: background 0.4s, color 0.4s;
 }
 
-.navbar li:hover {
+.navbar a:hover {
     background: #E0D7FF;
     cursor: pointer;
-}
-
-.navbar li:hover, .navbar li:hover * {
     color: black;
-}
-
-.navbar a {
-    font-size: 20px;
-    text-decoration: none;
-    color: #FFF;
 }

@@ -1,6 +1,6 @@
 <header>
     <ul class="navbar">
-        <li><a href="index.php">ACCUEIL</a></li>
-        <li><a href="projects.php">PROJETS</a></li>
+        <a href="index.php"><li>ACCUEIL</li></a>
+        <a href="projects.php"><li>PROJETS</li></a>
     </ul>
 </header>
