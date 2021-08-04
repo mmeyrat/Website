@@ -1,64 +1,64 @@
 .projects_container {
-    margin-top: 2%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
+	margin-top: 2%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
 }
 
 .project_container {
-    margin: 2%;
-    box-sizing: border-box;
-    height: 300px;
-    width: 45%;
-    border-radius: 15px;
-    text-decoration: none;
-    overflow: hidden;
-    transition: transform 0.15s ease-in;
+	margin: 2%;
+	box-sizing: border-box;
+	height: 300px;
+	width: 45%;
+	border-radius: 15px;
+	text-decoration: none;
+	overflow: hidden;
+	transition: transform 0.15s ease-in;
 }
 
 @media screen and (max-width: 1000px) {
-    .project_container img {
-        margin: 0px;
-        width: 100%;
-        height: 50%;
-        border-top-left-radius: 15px;
-        border-top-right-radius: 15px;
-        object-fit: cover;
-    }
+	.project_container img {
+		margin: 0px;
+		width: 100%;
+		height: 50%;
+		border-top-left-radius: 15px;
+		border-top-right-radius: 15px;
+		object-fit: cover;
+	}
 
-    .project_container p {
-        margin: 2%;
-        padding: 3%;
-    }
+	.project_container p {
+		margin: 2%;
+		padding: 3%;
+	}
 }
 
 @media screen and (min-width: 1000px) {
-    .project_container {
-        height: 250px;
-    }
+	.project_container {
+		height: 250px;
+	}
 
-    .project_container img {
-        margin: 0px;
-        width: 40%;
-        height: 100%;
-        border-top-right-radius: 15px;
-        border-bottom-right-radius: 15px;
-        float: right;
-        object-fit: cover;
-    }
+	.project_container img {
+		margin: 0px;
+		width: 40%;
+		height: 100%;
+		border-top-right-radius: 15px;
+		border-bottom-right-radius: 15px;
+		float: right;
+		object-fit: cover;
+	}
 
-    .project_container p {
-        margin: 2%;
-        padding: 2%;
-    }
+	.project_container p {
+		margin: 2%;
+		padding: 2%;
+	}
 }
 
 .project_container h3 {
-    margin: 2%;
-    padding: 3%;
+	margin: 2%;
+	padding: 3%;
 }
 
 .project_container:hover {
-    transform: scale(1.05);
-    box-shadow: 0 6px 20px 0 #AAA;
+	transform: scale(1.05);
+	box-shadow: 0 6px 20px 0 #AAA;
 }

@@ -18,5 +18,5 @@
 		linear-gradient(to right, #AAA 1px, transparent 1px),
 		linear-gradient(to bottom, #AAA 1px, transparent 1px);
 	background-position: 0px 0px;
-	animation: gridAnim 10s linear infinite both running;
+	animation: gridAnim 10s linear infinite running;
 }

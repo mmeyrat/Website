@@ -1,105 +1,105 @@
 @font-face {
-    font-family: "Cocogoose";
-    src: url("../fonts/Cocogoose-Regular.ttf") format("truetype");
+	font-family: "Cocogoose";
+	src: url("../fonts/Cocogoose-Regular.ttf") format("truetype");
 }
 
 body {
-    display: flex;
-    width: 100%;
-    height: 100%;
-    margin: 0;
-    margin-bottom: 50px;
-    font-family: Cocogoose;
+	display: flex;
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	margin-bottom: 50px;
+	font-family: Cocogoose;
 }
 
 #page {
-    position: absolute;
-    background-color: transparent;
-    height: 50%;
-    padding: 0;
-    box-sizing: border-box;
+	position: absolute;
+	background-color: transparent;
+	height: 50%;
+	padding: 0;
+	box-sizing: border-box;
 }
 
 #page h1 {
-    margin: 0px;
-    font-size: 40px;
+	margin: 0px;
+	font-size: 40px;
 }
 
 @media screen and (max-width: 450px) {
-    .name {
-        visibility: hidden;
-        display: none;
-        width: 0%;
-    }
+	.name {
+		visibility: hidden;
+		display: none;
+		width: 0%;
+	}
 
-    .navbar {
-        width: 100%;
-    }
+	.navbar {
+		width: 100%;
+	}
 
-    #page {
-        width: 90%;
-        left: 5%;
-        top: 10%;
-        margin-top: 2%;
-    }
+	#page {
+		width: 90%;
+		left: 5%;
+		top: 10%;
+		margin-top: 2%;
+	}
 }
 
 @media screen and (min-width: 450px) {
-    #page {
-        width: 80%;
-        left: 10%;
-        top: 10%;
-    }
+	#page {
+		width: 80%;
+		left: 10%;
+		top: 10%;
+	}
 }
 
-@media (prefers-color-scheme: dark) {    
-    body { 
-        background: #222; 
-        color: #FFF; 
-    }
+@media (prefers-color-scheme: dark) {
+	body {
+		background: #222;
+		color: #FFF;
+	}
 
-    header { 
-        background: #000;
-    }
+	header {
+		background: #000;
+	}
 
-    .project_container { 
-        background: #111; 
-        color: #FFF; 
-    }
-    
-    .text_container { 
-        background: #111; 
-    }
+	.project_container {
+		background: #111;
+		color: #FFF;
+	}
+	
+	.text_container {
+		background: #111;
+	}
 
-    .contact_container { 
-        background: #111; 
-    }  
-    
-    .contact_container img { 
-        filter: invert(1); 
-    }
+	.contact_container {
+		background: #111;
+	}
+	
+	.contact_container img {
+		filter: invert(1);
+	}
 }
 
-@media (prefers-color-scheme: light), (prefers-color-scheme: no-preferences) {    
-    body { 
-        background: #DDD; 
-        color: #000; 
-    }     
-    
-    header { 
-        background: #222;
-    }   
+@media (prefers-color-scheme: light), (prefers-color-scheme: no-preferences) {
+	body {
+		background: #DDD;
+		color: #000;
+	}
+	
+	header {
+		background: #222;
+	}
 
-    .project_container { 
-        background: #FFF; 
-        color: #000; 
-    }
-    
-    .text_container { 
-        background: #FFF; 
-    }    
-    
-    .contact_container { 
-        background: #FFF; 
-    } 
+	.project_container {
+		background: #FFF;
+		color: #000;
+	}
+	
+	.text_container {
+		background: #FFF;
+	}
+	
+	.contact_container {
+		background: #FFF;
+	}
 }
