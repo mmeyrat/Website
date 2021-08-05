@@ -10,7 +10,6 @@
 	</head>
 	<body>
 		<?php include 'navbar.php'; ?>
-		<div id="grid">
 			<div id="page">
 				<h1>Mes projets</h1>
 				<div class="projects_container">
@@ -29,7 +28,6 @@
 						<h3>Projet</h3>
 						<p>Lorem ipsum dolor sit amet...</p>
 					</a>
-				</div>
 			</div>
 		</div>
 	</body>
