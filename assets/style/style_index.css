@@ -42,6 +42,7 @@
 	border-radius: 10px;
 	box-sizing: border-box;
 	transition: transform 0.15s ease-in, box-shadow 0.15s ease-in, background-color 0.15s ease-in;
+	border: solid #222;
 }
 
 .contact_container img {
@@ -60,9 +61,8 @@
 */
 
 .contact_container:hover {
-	box-shadow: -10px 10px 0px 0px black;
+	box-shadow: -10px 10px 0px 0px #E0D7FF;
 	transform: translate(2.5%, -2.5%);
-	background-color: #E0D7FF;
 }
 
 #copyright {
@@ -80,4 +80,21 @@
 #copyright span {
 	display: table-cell;
 	vertical-align: middle;
+}
+
+#title {
+	color: black;
+	text-shadow: -8px 8px 0 #E0D7FF;
+	margin-left: 5%;
+	margin-top: 10%;
+	font-size: 70px;
+	line-height: 130px;
+}
+
+#title h1 {
+	margin: 0;
+}
+
+#title h1:first-of-type {
+	margin-left: 3%;
 }

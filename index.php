@@ -10,13 +10,17 @@
 	</head>
 	<body>
 		<?php include 'navbar.php'; ?>
+		<div id="title">
+			<h1>MAXIME</h1>
+			<h1>MEYRAT</h1>
+		</div>
 		<div id="page-shadow">
 			<div id="page">
-				<h1>Accueil</h1>
+				<h2>À PROPOS</h2>
 				<div class="text_container">
-					<h2>Bienvenu(e)</h2>
+					<h3>Ami des singes.</h3>
 				</div>
-				<h1>Me contacter</h1>
+				<h2>LIENS</h2>
 				<div class="contacts_container">
 					<a class="contact_container" href="https://github.com/mmeyrat" target="_blank">
 						<img src="../assets/images/github.svg" alt="">
