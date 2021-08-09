@@ -27,7 +27,8 @@
 					<h3>Projet</h3>
 					<p>Lorem ipsum dolor sit amet...</p>
 				</a>
-		</div>
+			</div>
+			<div id="copyright"><span>COPYRIGHT © 2021 - MAXIME MEYRAT</span></div>
 		</div>
 	</body>
 </html>
