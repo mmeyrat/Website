@@ -65,6 +65,19 @@ header {
 	color: black;
 }
 
+@media screen and (max-width: 1200px) {
+	.navbar {
+		width: 40%;
+	}
+}
+
+@media screen and (max-width: 700px) {
+	.navbar {
+		width: 100%;
+	}
+}
+
+
 /*
 #page {
 	position: absolute;
@@ -175,4 +188,19 @@ header {
 
 .contact_container {
 	background: white;
+}
+
+#copyright {
+	display: table;
+	position: absolute;
+	bottom: 0;
+	background-color: #222222;
+	color: white;
+	font-size: 12px;
+	z-index: 1;
+}
+
+#copyright span {
+	display: table-cell;
+	vertical-align: middle;
 }
