@@ -1,8 +1,8 @@
 #page {
 	position: absolute;
 	background-color: #EaEaEa;
-	height: 100%;
 	width: 60%;
+    min-height: 100%;
 	right: 0;
 	clip-path: polygon(15% 0%, 100% 0%, 100% 100%, 0% 100%);
 	box-sizing: border-box;
@@ -21,7 +21,7 @@
 
 .text_container {
 	width: 90%;
-	height: 40%;
+	height: 60% !important;
 	margin: 2%;
 	margin-bottom: 5%;
 	padding: 3%;
@@ -88,7 +88,7 @@
 	margin-left: 5%;
 	margin-top: 10%;
 	font-size: 70px;
-	line-height: 130px;
+	line-height: 140px;
 }
 
 #title h1 {

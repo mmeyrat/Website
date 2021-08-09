@@ -1,15 +1,28 @@
+#page {
+	background-color: #EaEaEa;
+    min-height: 100%;
+	width: 74%;
+	margin-left: 13%;
+	z-index: 2;
+	box-shadow: 0px 5px 10px #AAA;
+	padding-left: 1%;
+	padding-right: 1%;
+	position: absolute;
+}
+
 .projects_container {
-	margin-top: 2%;
+	margin-top: 80px;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-evenly;
 }
 
 .project_container {
-	margin: 2%;
+	margin: 1%;
+	margin-bottom: 1.5%;
 	box-sizing: border-box;
-	height: 300px;
-	width: 45%;
+	height: 275px;
+	width: 47%;
 	border-radius: 10px;
 	text-decoration: none;
 	overflow: hidden;
@@ -34,7 +47,7 @@
 
 @media screen and (min-width: 1000px) {
 	.project_container {
-		height: 250px;
+		height: 275px;
 	}
 
 	.project_container img {
