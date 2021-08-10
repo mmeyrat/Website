@@ -25,7 +25,7 @@
 	border-radius: 10px;
 	text-decoration: none;
 	overflow: hidden;
-	transition: transform 0.15s ease-in;
+	transition: transform 0.15s ease-in, box-shadow 0.15s ease-in;
 }
 
 .project_container img {
