@@ -94,7 +94,7 @@
 
 .project_container:hover {
 	transform: scale(1.05);
-	box-shadow: 0 6px 20px 0 #AAA;
+	box-shadow: 0 0 15px 5px #AAA;
 }
 
 #copyright {

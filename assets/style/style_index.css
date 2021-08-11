@@ -77,7 +77,7 @@
 
 .contact_container:hover {
 	transform: scale(1.05);
-	box-shadow: 0 6px 20px 0 #AAA;
+	box-shadow: 0 0 15px 5px #AAA;
 }
 
 /*
@@ -93,4 +93,39 @@
 	padding-left: 10px;
 	left: 0%;
 
+}
+
+@media screen and (max-width: 1200px) {
+	#title {
+		display: flex;
+	}
+	
+	#title h1 {
+		margin-right: 5%;
+	}
+
+	#page {
+		width: 90%;
+		left: 5%;
+		top: 35%;
+		clip-path: none;
+		padding: 5%;
+	}
+	
+	#page h2 {
+		margin-right: 0;
+		margin-left: 5%;
+		text-align: left;	
+	}
+}
+
+@media screen and (max-width: 700px) {
+	#page {
+		width: 100%;
+		left: 0;
+	}
+
+	#title {
+		display: inline;
+	}
 }
