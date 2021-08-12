@@ -65,19 +65,6 @@ header {
 	color: black;
 }
 
-@media screen and (max-width: 1200px) {
-	.navbar {
-		width: 40%;
-	}
-}
-
-@media screen and (max-width: 700px) {
-	.navbar {
-		width: 100%;
-	}
-}
-
-
 /*
 #page {
 	position: absolute;
@@ -207,4 +194,16 @@ p {
 #copyright span {
 	display: table-cell;
 	vertical-align: middle;
+}
+
+@media screen and (max-width: 1100px) {
+	.navbar {
+		width: 40%;
+	}
+}
+
+@media screen and (max-width: 700px) {
+	.navbar {
+		width: 100%;
+	}
 }
