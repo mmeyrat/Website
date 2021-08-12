@@ -1,8 +1,8 @@
 #page {
 	background-color: #EaEaEa;
     min-height: 100%;
-	width: 80%;
-	margin-left: 10%;
+	width: 76%;
+	margin-left: 12%;
 	z-index: 2;
 	box-shadow: 0 0 10px #AAA;
 	position: absolute;
@@ -19,8 +19,9 @@
 
 .project-container {
 	margin: 1%;
-	margin-bottom: 15px;
-	height: 260px;
+	margin-bottom: 20px;
+	min-height: 250px;
+	height: auto;
 	width: 47%;
 	border-radius: 10px;
 	text-decoration: none;
@@ -28,7 +29,7 @@
 	transition: transform 0.15s ease-in, box-shadow 0.15s ease-in;
 }
 
-.project-container img {
+.project-container > img {
 	margin: 0px;
 	width: 40%;
 	height: 100%;
@@ -48,6 +49,7 @@
 
 .project-container p {
 	padding: 3%;
+	padding-bottom: 5%;
 	width: 54%;
 	margin: 0;
 }
@@ -57,11 +59,6 @@
 		width: 94%;
 		margin-left: 5%;
 		margin-right: 5%;
-	}
-
-	#page {
-		width: 76%;
-		margin-left: 12%;
 	}
 }
 
@@ -73,11 +70,6 @@
 	#page {
 		width: 100%;
 		margin-left: 0;
-	}
-
-	.project-container {
-		margin-left: 1%;
-		margin-right: 1%;
 	}
 }
 
