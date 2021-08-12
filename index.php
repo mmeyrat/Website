@@ -10,9 +10,11 @@
 	</head>
 	<body>
 		<?php include 'navbar.php'; ?>
-		<div id="title">
-			<h1>MAXIME</h1>
-			<h1>MEYRAT</h1>
+		<div id="title-container">
+			<div id="title">
+				<h1>MAXIME</h1>
+				<h1>MEYRAT</h1>
+			</div>
 		</div>
 		<div id="page-shadow">
 			<div id="page">
