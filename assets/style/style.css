@@ -41,14 +41,14 @@ header {
 	box-shadow: 0 5px 10px #AAA;
 }
 
-.navbar {
+#navbar {
 	display: table;
 	width: 25%;
 	margin: 0;
 	padding: 0;
 }
 
-.navbar a {
+#navbar a {
 	display: table-cell;
 	color: #FFF;
 	font-size: 20px;
@@ -59,7 +59,7 @@ header {
 	transition: background-color 0.4s, color 0.4s;
 }
 
-.navbar a:hover {
+#navbar a:hover {
 	background-color: #E0D7FF;
 	cursor: pointer;
 	color: black;
@@ -84,17 +84,17 @@ p {
 	text-align: justify;
 }
 
-.project_container {
+#text-container {
+	background: white;
+}
+
+.contact-container {
+	background: white;
+}
+
+.project-container {
 	background: white;
 	color: #000;
-}
-
-.text_container {
-	background: white;
-}
-
-.contact_container {
-	background: white;
 }
 
 #copyright {
@@ -113,13 +113,13 @@ p {
 }
 
 @media screen and (max-width: 1100px) {
-	.navbar {
+	#navbar {
 		width: 40%;
 	}
 }
 
 @media screen and (max-width: 700px) {
-	.navbar {
+	#navbar {
 		width: 100%;
 	}
 }

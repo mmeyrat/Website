@@ -48,7 +48,7 @@
 	*/	
 }
 
-.text_container {
+#text-container {
 	width: 90%;
 	height: 60% !important;
 	margin-bottom: 5%;
@@ -56,12 +56,12 @@
 	border-radius: 10px;
 }
 
-.contacts_container {
+#contacts-container {
 	display: flex;
 	justify-content: space-evenly;
 }
 
-.contact_container {
+.contact-container {
 	position: relative;
 	width: 150px;
 	height: 150px;
@@ -71,11 +71,11 @@
 	transition: transform 0.15s ease-in, box-shadow 0.15s ease-in;
 }
 
-.contact_container svg {
+.contact-container svg {
 	padding: 25%;
 }
 
-.contact_container:hover {
+.contact-container:hover {
 	transform: scale(1.05);
 	box-shadow: 0 0 15px 5px #AAA;
 }
