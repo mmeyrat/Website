@@ -4,7 +4,7 @@
 	width: 80%;
 	margin-left: 10%;
 	z-index: 2;
-	box-shadow: 0px 0px 10px #AAA;
+	box-shadow: 0 0 10px #AAA;
 	position: absolute;
 }
 
@@ -83,29 +83,6 @@
 		margin-right: 1%;
 	}
 }
-
-/*
-@media screen and (min-width: 1000px) {
-	.project_container {
-		height: 275px;
-	}
-
-	.project_container img {
-		margin: 0px;
-		width: 40%;
-		height: 100%;
-		border-top-right-radius: 10px;
-		border-bottom-right-radius: 10px;
-		float: right;
-		object-fit: cover;
-	}
-
-	.project_container p {
-		margin: 2%;
-		padding: 2%;
-	}
-}
-*/
 
 .project_container:hover {
 	transform: scale(1.05);
