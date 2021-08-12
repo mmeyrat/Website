@@ -110,13 +110,17 @@
 		font-size: 4vw;
 	}
 
-	@media screen and (min-width: 701px) {		
+	@media screen and (min-width: 701px) {
 		#title {
 			display: flex;
 		}
 
 		#title h1 {
 			line-height: normal;
+		}
+
+		#page {
+			border-radius: 10px;
 		}
 	}
 	
