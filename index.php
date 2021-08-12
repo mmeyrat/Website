@@ -20,7 +20,7 @@
 			<div id="page">
 				<h2>À PROPOS</h2>
 				<div id="text-container">
-					<h3>Ami des singes.</h3>
+					<p>Ami des singes.</p>
 				</div>
 				<h2>LIENS</h2>
 				<div id="contacts-container">

@@ -3,6 +3,11 @@
 	src: url("../fonts/Cocogoose-Regular.otf") format("opentype");
 }
 
+@font-face {
+	font-family: "Tommy";
+	src: url("../fonts/Tommy-Regular.otf") format("opentype");
+}
+
 @keyframes gridAnim {
 	from {
 		background-position: 500px 0;
@@ -82,6 +87,7 @@ header {
 
 p {
 	text-align: justify;
+	font-family: Tommy;
 }
 
 #text-container {

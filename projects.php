@@ -12,6 +12,11 @@
 		<?php include 'navbar.php'; ?>
 		<div id="page">
 			<div id="projects-container">
+				<a class="project-container" href="https://top.gg/bot/725370669289963521" target="_blank">
+					<img src="../assets/images/ouistitibot.png" alt="">
+					<h3>OuistitiBot</h3>
+					<p>Un bot simple qui répond à vos messages pour vous embêter.</p>
+				</a>
 				<a class="project-container" href="projects/earth.html" target="_blank">
 					<img src="../assets/images/earth.png" alt="">
 					<h3>La planète Terre</h3>
