@@ -141,7 +141,7 @@
 
 	#page {
 		width: 86%;
-		min-height: unset;
+		min-height: calc(100% - git20vw - 60px);
 		height: auto;
 		clip-path: none;
 		padding: 5%;
@@ -184,5 +184,6 @@
 	#page {
 		width: 100%;
 		left: 0;
+		min-height: calc(100% - 40vw - 60px);
 	}
 }
