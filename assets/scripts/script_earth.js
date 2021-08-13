@@ -3,9 +3,9 @@ var camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHei
 camera.position.z = 300;
 
 var loader = new THREE.TextureLoader();
-var color = loader.load('../assets/images/earth_color_map.jpg');
-var specular = loader.load('../assets/images/earth_specular_map.jpg');
-var normal = loader.load('../assets/images/earth_normal_map.jpg');
+var color = loader.load('../assets/images/earth3d/earth_color_map.jpg');
+var specular = loader.load('../assets/images/earth3d/earth_specular_map.jpg');
+var normal = loader.load('../assets/images/earth3d/earth_normal_map.jpg');
 
 var geometry = new THREE.SphereGeometry(128, 128, 128);
 var material = new THREE.MeshPhongMaterial({

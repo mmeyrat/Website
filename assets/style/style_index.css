@@ -80,14 +80,13 @@
 	box-shadow: 0 0 15px 5px #AAA;
 }
 
+/*
 #copyright {
-	width: 50%;
+	width: calc(100% - 10px);
 	padding: 5px;
 	padding-left: 10px;
-	left: 0%;
-
 }
-
+*/
 @media screen and (max-width: 1100px) {
 	body {
 		flex-direction: column;
@@ -155,3 +154,14 @@
 		margin: 0;
 	}
 }
+
+
+#copyright {
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+#copyright span {
+	text-align: center;
+}
+

@@ -13,24 +13,19 @@
 		<div id="page">
 			<div id="projects-container">
 				<a class="project-container" href="https://top.gg/bot/725370669289963521" target="_blank">
-					<img src="../assets/images/ouistitibot.png" alt="">
+					<img src="../assets/images/previews/ouistitibot.png" alt="OuistitiBot preview">
 					<h3>OuistitiBot</h3>
-					<p>Un bot simple qui répond à vos messages pour vous embêter.</p>
+					<p>Un bot de discussion codé avec Discord.js. Il répond à des messages précis pour mettre de l'ambiance dans vos serveurs Discord.</p>
+				</a>
+				<a class="project-container" href="https://github.com/mmeyrat/MiniGolf-VR" target="_blank">
+					<img src="../assets/images/previews/minigolf.png" alt="MiniGolf VR preview">
+					<h3>MiniGolf VR</h3>
+					<p>Un jeu en réalité virtuelle de mini-golf réalisé avec Unity. Il consiste en un parcours de 3 trous. Ce jeu est destiné avant tout à l'Occulus Quest.</p>
 				</a>
 				<a class="project-container" href="projects/earth.html" target="_blank">
-					<img src="../assets/images/earth.png" alt="">
-					<h3>La planète Terre</h3>
-					<p>Une page web contenant une vue 3D de la planète Terre.</p>
-				</a>
-				<a class="project-container" href="" target="_blank">
-					<img src="../assets/images/error.jpg" alt="">
-					<h3>Projet</h3>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis viverra augue consequat, tincidunt justo eu, efficitur felis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. </p>
-				</a>
-				<a class="project-container" href="" target="_blank">
-					<img src="../assets/images/error.jpg" alt="">
-					<h3>Projet</h3>
-					<p>Lorem ipsum dolor sit amet...</p>
+					<img src="../assets/images/previews/earth.png" alt="">
+					<h3>Earth 3D</h3>
+					<p>Une page web contenant une vue 3D de la planète Terre conçue avec la bibliothèque Three.js.</p>
 				</a>
 			</div>
 			<div id="copyright"><span>COPYRIGHT © 2021 - MAXIME MEYRAT</span></div>
