@@ -65,13 +65,14 @@
 	margin-bottom: 50px;
 	display: flex;
 	justify-content: space-evenly;
+	flex-wrap: wrap;
 }
 
 .contact-container {
 	position: relative;
 	width: 150px;
 	height: 150px;
-	margin: 2%;
+	margin: 10px;
 	border-radius: 10px;
 	box-sizing: border-box;
 	transition: transform 0.15s ease-in, box-shadow 0.15s ease-in;
@@ -141,7 +142,7 @@
 
 	#page {
 		width: 86%;
-		min-height: calc(100% - git20vw - 60px);
+		min-height: calc(100% - 20vw - 60px);
 		height: auto;
 		clip-path: none;
 		padding: 5%;
@@ -185,5 +186,10 @@
 		width: 100%;
 		left: 0;
 		min-height: calc(100% - 40vw - 60px);
+	}
+
+	.contact-container {
+		width: 120px;
+		height: 120px;
 	}
 }
