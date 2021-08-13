@@ -93,18 +93,21 @@ header {
 	color: #000;
 }
 
-#copyright {
-	width: 100%;
+.copyright {
 	display: table;
 	position: absolute;
+	width: 100%;
 	bottom: 0;
+	left: 0;
+	padding-top: 5px;
+	padding-bottom: 5px;
 	background-color: #222222;
 	color: white;
 	font-size: 12px;
 	z-index: 1;
 }
 
-#copyright span {
+.copyright span {
 	display: table-cell;
 	vertical-align: middle;
 }

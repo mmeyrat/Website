@@ -28,7 +28,7 @@
 					<p>Une page web contenant une vue 3D de la planète Terre conçue avec la bibliothèque Three.js.</p>
 				</a>
 			</div>
-			<div id="copyright"><span>COPYRIGHT © 2021 - MAXIME MEYRAT</span></div>
+			<div class="copyright"><span>COPYRIGHT © 2021 - MAXIME MEYRAT</span></div>
 		</div>
 	</body>
 </html>

@@ -59,12 +59,7 @@
 	box-shadow: 0 0 15px 5px #AAA;
 }
 
-#copyright {
-	padding-top: 5px;
-	padding-bottom: 5px;
-}
-
-#copyright span {
+.copyright span {
 	text-align: center;
 }
 

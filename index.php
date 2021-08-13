@@ -40,8 +40,9 @@
 						</svg>
 					</a>
 				</div>
-				<div id="copyright"><span>COPYRIGHT © 2021 - MAXIME MEYRAT</span></div>
+				<div id="copyright-half" class="copyright"><span>COPYRIGHT © 2021 - MAXIME MEYRAT</span></div>
 			</div>
+			<div id="copyright-full" class="copyright"><span>COPYRIGHT © 2021 - MAXIME MEYRAT</span></div>
 		</div>
 	</body>
 </html>
