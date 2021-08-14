@@ -1,10 +1,10 @@
 #title-container {
 	color: black;
 	text-shadow: -6px 6px 0 #E0D7FF;
-	margin-left: 3%;
+	margin-left: 5%;
 	margin-top: 12%;
-	font-size: 4vw;
-	line-height: 8vw;
+	font-size: 3.5vw;
+	line-height: 7vw;
 }
 
 #title h1 {
@@ -45,12 +45,11 @@
 	margin-right: 10%;
 	margin-bottom: 30px;
 	text-align: right;
-	/*
 	text-decoration-line: underline;
 	text-decoration-color: #E0D7FF;
 	text-decoration-thickness: 6px;
-	text-underline-offset: 12px;
-	*/	
+	text-underline-offset: 11px;
+	font-size: 35px;
 }
 
 #text-container {
@@ -70,8 +69,8 @@
 
 .contact-container {
 	position: relative;
-	width: 150px;
-	height: 150px;
+	width: 140px;
+	height: 140px;
 	margin: 10px;
 	border-radius: 10px;
 	box-sizing: border-box;
@@ -79,7 +78,7 @@
 }
 
 .contact-container svg {
-	padding: 25%;
+	margin: 22%;
 }
 
 .contact-container:hover {
@@ -114,6 +113,7 @@
 		display: flex;
 		align-items: center;
 		font-size: 4vw;
+		text-shadow: -4px 4px 0 #E0D7FF;
 	}
 
 	@media screen and (min-width: 701px) {
@@ -154,7 +154,8 @@
 	#page h2 {
 		margin-right: 0;
 		margin-left: 5%;
-		text-align: left;	
+		text-align: left;
+		font-size: 30px;
 	}
 	
 	#copyright-full {
@@ -186,6 +187,11 @@
 		width: 100%;
 		left: 0;
 		min-height: calc(100% - 40vw - 60px);
+	}
+
+	#page h2 {
+		text-decoration-thickness: 5px;
+		font-size: 25px;
 	}
 
 	.contact-container {
