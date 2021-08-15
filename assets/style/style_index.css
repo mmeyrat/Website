@@ -53,11 +53,7 @@
 }
 
 #text-container {
-	width: 90%;
-	height: 10%;
-	margin-bottom: 5%;
 	padding: 3%;
-	border-radius: 10px;
 }
 
 #contacts-container {
@@ -126,7 +122,8 @@
 		}
 
 		#page {
-			border-radius: 10px;
+			border-top-left-radius: 10px;
+			border-top-right-radius: 10px;
 		}
 	}
 	
@@ -178,9 +175,9 @@
 
 @media screen and (max-width: 700px) {
 	#title-container {
-		min-height: 40vw;
+		min-height: 45vw;
 		line-height: 12vw;
-		font-size: 6vw;
+		font-size: 7vw;
 	}
 	
 	#page {

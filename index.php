@@ -20,7 +20,7 @@
 			<div id="page">
 				<h2>À PROPOS</h2>
 				<div id="text-container">
-					<p>Ami des singes.</p>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ut ante nunc. Nunc massa nisi, vehicula vitae magna ac, luctus laoreet mi. Vivamus eu rhoncus nisi. Donec cursus lectus lectus, in blandit enim pretium id. Pellentesque laoreet maximus scelerisque. Aliquam nisl massa, lobortis eget dapibus eu, ultrices eu nisi. Ut vel nunc lacinia, ullamcorper lacus et, posuere metus. Sed faucibus mollis justo nec sodales. Donec dolor nisl, tincidunt ut tellus aliquet, hendrerit ultrices erat. Donec bibendum, erat vitae consectetur faucibus, tortor justo ultricies odio, ac laoreet sapien odio non purus. Phasellus mattis massa turpis, et suscipit mauris mattis id. Curabitur egestas, sem ut accumsan vestibulum, urna neque imperdiet eros, in viverra quam justo quis felis. Morbi condimentum, dolor eget vehicula sodales, neque augue facilisis felis, ac faucibus ipsum lorem vitae diam.</p>
 				</div>
 				<h2>LIENS</h2>
 				<div id="contacts-container">
