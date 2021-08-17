@@ -22,9 +22,10 @@
 	--grid-line-color: #AAA;
 	--box-shadow-color: #AAA;
 	--navbar-bg-color: #222;
-	--text-color: #FFF;
-	--text-color-light-bg: #000;
-	--palette-color: #E0D7FF;
+	--text-main-color: #000;
+	--text-navbar-color: #FFF;
+	--text-navbar-hover-color: #000;
+	--palette-color: #C5BEF9;
 }
 
 html {
@@ -34,7 +35,7 @@ html {
 body {
 	position: absolute;
 	display: flex;
-	color: var(--text-color-light-bg);
+	color: var(--text-main-color);
 	width: 100%;
 	height: 100%;
 	margin: 0;
@@ -72,7 +73,7 @@ header {
 
 #navbar a {
 	display: table-cell;
-	color: var(--text-color);
+	color: var(--text-navbar-color);
 	font-size: 20px;
 	list-style-type: none;
 	text-decoration: none;
@@ -84,7 +85,7 @@ header {
 #navbar a:hover {
 	background-color: var(--palette-color);
 	cursor: pointer;
-	color: var(--text-color-light-bg);
+	color: var(--text-navbar-hover-color);
 }
 
 #page h2 {
@@ -101,7 +102,7 @@ header {
 	padding-top: 5px;
 	padding-bottom: 5px;
 	background-color: var(--navbar-bg-color);
-	color: var(--text-color);
+	color: var(--text-navbar-color);
 	font-size: 12px;
 	z-index: 0;
 }
@@ -123,15 +124,12 @@ header {
 	}
 }
 
-/*
 @media (prefers-color-scheme: dark) {
 	:root {
-		--text-color-light-bg: #FFF;
+		--text-main-color: #FFF;
 		--grid-bg-color: #000;
-		--grid-line-color: #666;
-		--navbar-bg-color: #333;
-		--text-color: #FFF;
-		--palette-color: #E0D7FF;
+		--grid-line-color: #444;
+		--navbar-bg-color: #1E1E1E;
+		--palette-color: #948ada;
 	}
 }
-		*/
