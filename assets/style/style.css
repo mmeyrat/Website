@@ -17,6 +17,16 @@
 	}
 }
 
+:root {
+	--grid-bg-color: #FFF;
+	--grid-line-color: #AAA;
+	--box-shadow-color: #AAA;
+	--navbar-bg-color: #222;
+	--text-color: #FFF;
+	--text-color-light-bg: #000;
+	--palette-color: #E0D7FF;
+}
+
 html {
 	height: 100%;
 }
@@ -24,15 +34,16 @@ html {
 body {
 	position: absolute;
 	display: flex;
+	color: var(--text-color-light-bg);
 	width: 100%;
 	height: 100%;
 	margin: 0;
 	font-family: Cocogoose;
 	background-size: 50px 50px;
-	background-color: white;
+	background-color: var(--grid-bg-color);
 	background-image:
-		linear-gradient(to right, #AAA 1px, transparent 1px),
-		linear-gradient(to bottom, #AAA 1px, transparent 1px);
+		linear-gradient(to right, var(--grid-line-color) 1px, transparent 1px),
+		linear-gradient(to bottom, var(--grid-line-color) 1px, transparent 1px);
 	background-position: 0px 0px;
 	animation: gridAnim 10s linear infinite running;
 }
@@ -43,13 +54,13 @@ p {
 }
 
 header {
-	background: #222;
+	background: var(--navbar-bg-color);
 	display: flex;
 	position: fixed;
 	z-index: 3;
 	width: 100%;
 	height: 60px;
-	box-shadow: 0 5px 10px #AAA;
+	box-shadow: 0 5px 10px var(--box-shadow-color);
 }
 
 #navbar {
@@ -61,7 +72,7 @@ header {
 
 #navbar a {
 	display: table-cell;
-	color: #FFF;
+	color: var(--text-color);
 	font-size: 20px;
 	list-style-type: none;
 	text-decoration: none;
@@ -71,23 +82,14 @@ header {
 }
 
 #navbar a:hover {
-	background-color: #E0D7FF;
+	background-color: var(--palette-color);
 	cursor: pointer;
-	color: black;
+	color: var(--text-color-light-bg);
 }
 
 #page h2 {
 	margin: 0px;
 	font-size: 40px;
-}
-
-.contact-container {
-	background: white;
-}
-
-.project-container {
-	background: white;
-	color: #000;
 }
 
 .copyright {
@@ -98,8 +100,8 @@ header {
 	left: 0;
 	padding-top: 5px;
 	padding-bottom: 5px;
-	background-color: #222222;
-	color: white;
+	background-color: var(--navbar-bg-color);
+	color: var(--text-color);
 	font-size: 12px;
 	z-index: 0;
 }
@@ -120,3 +122,16 @@ header {
 		width: 100%;
 	}
 }
+
+/*
+@media (prefers-color-scheme: dark) {
+	:root {
+		--text-color-light-bg: #FFF;
+		--grid-bg-color: #000;
+		--grid-line-color: #666;
+		--navbar-bg-color: #333;
+		--text-color: #FFF;
+		--palette-color: #E0D7FF;
+	}
+}
+		*/
