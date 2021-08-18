@@ -52,6 +52,7 @@ body {
 p {
 	text-align: justify;
 	font-family: Tommy;
+	margin-top: 0;
 }
 
 header {

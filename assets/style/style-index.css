@@ -41,12 +41,13 @@
 	right: 0;
 	clip-path: polygon(15% 0%, 100% 0%, 100% 100%, 0% 100%);
 	box-sizing: border-box;
-	padding-left: 10%;
+	padding-bottom: 5%;
 	padding-top: 7%;
+	padding-left: 10%;
 	padding-right: 2%;
 	display: flex;
 	flex-direction: column;
-	justify-content: space-evenly;
+	justify-content: space-between;
 }
 
 #page h2 {
@@ -55,17 +56,26 @@
 	text-align: right;
 	text-decoration-line: underline;
 	text-decoration-color: var(--palette-color);
-	text-decoration-thickness: 6px;
+	text-decoration-thickness: 5px;
 	text-underline-offset: 11px;
 	font-size: 35px;
 }
 
 #text-container {
 	padding: 3%;
+	line-height: 24px;
+}
+
+#text-container p {
+	text-indent: 24px; 
+}
+
+#text-container a {
+	text-decoration: none;
 }
 
 #contacts-container {
-	margin-bottom: 50px;
+	margin-top: 3%;
 	display: flex;
 	justify-content: space-evenly;
 	flex-wrap: wrap;
@@ -152,9 +162,11 @@
 		height: auto;
 		clip-path: none;
 		padding: 5%;
+		padding-top: 7%;
 		left: 7%;
 		box-shadow: 0 0 10px var(--box-shadow-color);
 		flex-grow: 1;
+		justify-content: space-evenly;
 	}
 	
 	#page h2 {
@@ -163,7 +175,11 @@
 		text-align: left;
 		font-size: 30px;
 	}
-	
+
+	#contacts-container {
+		margin-bottom: 50px;
+	}
+
 	#copyright-full {
 		position: relative;
 		text-align: center;
@@ -185,19 +201,24 @@
 @media screen and (max-width: 700px) {
 	#title-container {
 		min-height: 45vw;
-		line-height: 12vw;
-		font-size: 7vw;
+		line-height: 16vw;
+		font-size: 8vw;
 	}
 	
 	#page {
 		width: 100%;
 		left: 0;
 		min-height: calc(100% - 40vw - 60px);
+		padding-top: 9%;
 	}
 
 	#page h2 {
 		text-decoration-thickness: 5px;
-		font-size: 25px;
+		font-size: 28px;
+	}
+
+	#text-container {
+		line-height: 22px;
 	}
 
 	.contact-container {
