@@ -10,7 +10,7 @@
 	color: var(--text-main-color);
 	text-shadow: -6px 6px 0 var(--palette-color);
 	margin-left: 5%;
-	margin-top: 14%;
+	margin-top: 12%;
 	font-size: 3.5vw;
 	line-height: 7vw;
 	position: absolute;
@@ -104,7 +104,7 @@ video {
 }
 
 .contact-container:hover {
-	transform: scale(1.05);
+	transform: scale(1.1);
 	box-shadow: 0 0 15px 5px var(--box-shadow-color);
 }
 
@@ -129,7 +129,7 @@ video {
 
 	#title-container {
 		width: 86%;
-		min-height: 24vw;
+		min-height: 22vw;
 		margin-top: 60px;
 		margin-left: 7%;
 		display: flex;
