@@ -10,9 +10,11 @@
 	color: var(--text-main-color);
 	text-shadow: -6px 6px 0 var(--palette-color);
 	margin-left: 5%;
-	margin-top: 12%;
+	margin-top: 14%;
 	font-size: 3.5vw;
 	line-height: 7vw;
+	position: absolute;
+	z-index: 2;
 }
 
 #title h1 {
@@ -28,7 +30,7 @@
 	height: 100%;
 	width: 100%;
 	filter: drop-shadow(0 0 10px var(--box-shadow-color));
-	z-index: 2;
+	z-index: 1;
 }
 
 #page {
@@ -72,6 +74,11 @@
 
 #text-container a {
 	text-decoration: none;
+}
+
+video {
+	width: 100% !important;
+	height: auto !important;
 }
 
 #contacts-container {
@@ -121,7 +128,7 @@
 	}
 
 	#title-container {
-		width: 90%;
+		width: 86%;
 		min-height: 24vw;
 		margin-top: 60px;
 		margin-left: 7%;
@@ -129,6 +136,7 @@
 		align-items: center;
 		font-size: 4vw;
 		text-shadow: -4px 4px 0 var(--palette-color);
+		position: relative;
 	}
 
 	@media screen and (min-width: 701px) {
