@@ -1,0 +1,254 @@
+:root {
+	--box-shadow-color: #AAA;
+	--palette-color: #C5BEF9;
+	--page-bg-color: #EEE;
+	--container-color: #FFF;
+	--text-main-color: #000;
+}
+
+#title-container {
+	color: var(--text-main-color);
+	text-shadow: -6px 6px 0 var(--palette-color);
+	margin-left: 5%;
+	margin-top: 12%;
+	font-size: 3.5vw;
+	line-height: 7vw;
+	position: absolute;
+	z-index: 2;
+}
+
+#title h1 {
+	margin: 0;
+}
+
+#title h1:first-of-type {
+	margin-left: 3%;
+}
+
+#page-shadow {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	filter: drop-shadow(0 0 10px var(--box-shadow-color));
+	z-index: 1;
+}
+
+#page {
+	display: table-row;
+	position: absolute;
+	background-color: var(--page-bg-color);
+	width: 60%;
+    min-height: 100%;
+	height: auto;
+	right: 0;
+	clip-path: polygon(15% 0%, 100% 0%, 100% 100%, 0% 100%);
+	box-sizing: border-box;
+	padding-bottom: 5%;
+	padding-top: 7%;
+	padding-left: 10%;
+	padding-right: 2%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+#page h2 {
+	margin-right: 10%;
+	margin-bottom: 30px;
+	text-align: right;
+	text-decoration-line: underline;
+	text-decoration-color: var(--palette-color);
+	text-decoration-thickness: 5px;
+	text-underline-offset: 11px;
+	font-size: 35px;
+}
+
+#text-container {
+	padding: 3%;
+	line-height: 24px;
+}
+
+#text-container p {
+	text-indent: 24px; 
+}
+
+#text-container a {
+	text-decoration: none;
+}
+
+video {
+	width: 100% !important;
+	height: auto !important;
+}
+
+#contacts-container {
+	margin-top: 3%;
+	display: flex;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+}
+
+.contact-container {
+	background: var(--container-color);
+	position: relative;
+	width: 140px;
+	height: 140px;
+	margin: 10px;
+	border-radius: 10px;
+	box-sizing: border-box;
+	transition: transform 0.15s ease-in, box-shadow 0.15s ease-in;
+}
+
+.contact-container svg {
+	margin: 22%;
+}
+
+.contact-container:hover {
+	transform: scale(1.1);
+	box-shadow: 0 0 15px 5px var(--box-shadow-color);
+}
+
+#copyright-half {
+	display: none;
+}
+
+#copyright-full {
+	position: fixed;
+	width: 50%;
+}
+
+#copyright-full span {
+	padding-left: 10px;
+	text-align: left;
+}
+
+@media screen and (max-width: 1100px) {
+	body {
+		flex-direction: column;
+	}
+
+	#title-container {
+		width: 86%;
+		min-height: 22vw;
+		margin-top: 60px;
+		margin-left: 7%;
+		display: flex;
+		align-items: center;
+		font-size: 4vw;
+		text-shadow: -4px 4px 0 var(--palette-color);
+		position: relative;
+	}
+
+	@media screen and (min-width: 701px) {
+		#title {
+			display: flex;
+		}
+
+		#title h1 {
+			line-height: normal;
+		}
+
+		#page {
+			border-top-left-radius: 10px;
+			border-top-right-radius: 10px;
+		}
+	}
+	
+	#title h1:first-of-type {
+		margin-left: 0;
+		margin-right: 5%;
+	}
+
+	#page-shadow {
+		position: unset;
+		filter: none;
+	}
+
+	#page {
+		width: 86%;
+		min-height: calc(100% - 20vw - 60px);
+		height: auto;
+		clip-path: none;
+		padding: 5%;
+		padding-top: 7%;
+		left: 7%;
+		box-shadow: 0 0 10px var(--box-shadow-color);
+		flex-grow: 1;
+		justify-content: space-evenly;
+	}
+	
+	#page h2 {
+		margin-right: 0;
+		margin-left: 5%;
+		text-align: left;
+		font-size: 30px;
+	}
+
+	#contacts-container {
+		margin-bottom: 50px;
+	}
+
+	#copyright-full {
+		position: relative;
+		text-align: center;
+	}
+
+	#copyright-half {
+		display: table;
+	}
+
+	#copyright-half span {
+		text-align: center;
+	}
+
+	#copyright-full {
+		display: none;
+	}
+}
+
+@media screen and (max-width: 700px) {
+	#title-container {
+		min-height: 55vw;
+		line-height: 16vw;
+		font-size: 8vw;
+	}
+	
+	#page {
+		width: 100%;
+		left: 0;
+		min-height: calc(100% - 40vw - 60px);
+		padding-top: 9%;
+	}
+
+	#page h2 {
+		text-decoration-thickness: 5px;
+		font-size: 28px;
+	}
+
+	#text-container {
+		line-height: 22px;
+	}
+
+	.contact-container {
+		width: 120px;
+		height: 120px;
+	}
+}
+
+@media (prefers-color-scheme: dark) {
+	:root {
+		--box-shadow-color: #000;
+		--page-bg-color: #121212;
+		--container-color: #1E1E1E;
+		--palette-color: #948ada;
+		--text-main-color: #FFF;
+	}
+
+	svg {
+		filter: invert();
+	}
+
+	#text-container a {
+		color: var(--palette-color)
+	}
+}
