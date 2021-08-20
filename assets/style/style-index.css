@@ -122,7 +122,7 @@
 
 	#title-container {
 		width: 90%;
-		min-height: 20vw;
+		min-height: 24vw;
 		margin-top: 60px;
 		margin-left: 7%;
 		display: flex;
@@ -200,7 +200,7 @@
 
 @media screen and (max-width: 700px) {
 	#title-container {
-		min-height: 45vw;
+		min-height: 55vw;
 		line-height: 16vw;
 		font-size: 8vw;
 	}
@@ -238,5 +238,9 @@
 
 	svg {
 		filter: invert();
+	}
+
+	#text-container a {
+		color: var(--palette-color)
 	}
 }
