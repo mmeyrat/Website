@@ -1,5 +1,5 @@
 :root {
-	--box-shadow-color: #AAA;
+	--box-shadow-color: #999;
 	--palette-color: #C5BEF9;
 	--page-bg-color: #EEE;
 	--container-color: #FFF;
@@ -66,7 +66,7 @@
 
 .project-container:hover {
 	transform: scale(1.05);
-	box-shadow: 0 0 15px 5px var(--box-shadow-color);
+	box-shadow: 0 0 12px 5px var(--box-shadow-color);
 }
 
 .copyright span {
