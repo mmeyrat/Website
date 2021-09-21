@@ -79,7 +79,7 @@
 }
 
 video {
-	width: 100% !important;
+	width: 90% !important;
 	height: auto !important;
 }
 
@@ -245,8 +245,8 @@ video {
 @media (prefers-color-scheme: dark) {
 	:root {
 		--box-shadow-color: #000;
-		--page-bg-color: #121212;
-		--container-color: #1E1E1E;
+		--page-bg-color: #131313;
+		--container-color: #222;
 		--palette-color: #948ada;
 		--text-main-color: #FFF;
 	}
