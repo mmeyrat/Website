@@ -18,7 +18,7 @@
 
 #projects-container {
 	margin: 1%;
-	margin-top: 95px;
+	margin-top: 90px;
 	margin-bottom: 60px;
 	display: flex;
 	flex-wrap: wrap;
@@ -29,8 +29,8 @@
 	background: var(--container-color);
 	color: var(--text-color-light-bg);
 	margin: 1%;
-	margin-bottom: 20px;
-	min-height: 230px;
+	margin-bottom: 15px;
+	min-height: 200px;
 	height: auto;
 	width: 47%;
 	border-radius: 7px;
