@@ -3,7 +3,7 @@ let clickCount = 0;
 function startEasterEgg() {
 	clickCount++;
 
-	if (clickCount >= 6) {
+	if (clickCount == 6) {
 		let video = `<video autoplay loop>
 						<source src='./assets/images/video.mp4' type='video/mp4'>
 					 </video>`
