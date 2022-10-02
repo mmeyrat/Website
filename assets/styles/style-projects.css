@@ -83,12 +83,16 @@
 
 @media screen and (max-width: 700px) {
 	body {
-		background-image: none !important;
+		background-image: none;
 	}
 
 	#page {
 		width: 100%;
 		margin-left: 0;
+	}
+
+	.project-container {
+		margin-bottom: 20px;
 	}
 }
 

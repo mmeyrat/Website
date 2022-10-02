@@ -1,9 +1,10 @@
-var clickCount = 0;
+let clickCount = 0;
 
-function showBorgir() {
+function displayVideo() {
 	clickCount++;
 
 	if (clickCount == 4) {
-		document.getElementById("text-container").innerHTML = "<video autoplay><source src='./assets/images/video.mp4' type='video/mp4'></video>";
+		document.getElementsByTagName("body")[0].innerHTML += "<video autoplay><source src='./assets/images/video.mp4' type='video/mp4'></video>";
 	}
+	console.log(clickCount)
 }
