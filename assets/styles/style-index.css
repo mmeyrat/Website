@@ -21,16 +21,24 @@
 
 #title h1 {
 	margin: 0;
-	text-indent: 3%;
 	cursor: default;
 }
 
 #title-name {
+	margin-left: 3%;
+}
+
+#title-surname {
 	display: flex;
+}
+
+#title-surname:last-child {
+	z-index: 0;
 }
 
 #R {
 	cursor: pointer;
+	z-index: 1;
 }
 
 #title svg {
@@ -168,8 +176,16 @@ video {
 		display: flex;
 		height: 100%;
 		margin-top: var(--navbar-height);
-		text-indent: unset;
 		text-align: center;
+		align-items: center;
+		justify-content: center;
+	}
+
+	#title-name {
+		margin-left: 0;
+	}
+
+	#title-surname {
 		align-items: center;
 		justify-content: center;
 	}
