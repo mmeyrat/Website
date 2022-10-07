@@ -141,4 +141,8 @@ header {
 		--navbar-bg-color: #1F1F1F;
 		--palette-color: #948ada;
 	}
+
+	svg {
+		filter: invert();
+	}
 }

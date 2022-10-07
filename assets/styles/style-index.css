@@ -265,8 +265,4 @@ video {
 		--palette-color: #948ada;
 		--text-main-color: #FFF;
 	}
-
-	svg {
-		filter: invert();
-	}
 }

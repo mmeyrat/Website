@@ -40,6 +40,15 @@
 	transition: transform 0.15s ease-in, box-shadow 0.15s ease-in;
 }
 
+.project-container img {
+	margin: 0px;
+	width: 40%;
+	height: 100%;
+	border-top-right-radius: 7px;
+	border-bottom-right-radius: 7px;
+	float: right;
+	object-fit: cover;
+}
 
 .project-container h3 {
 	width: 54%;
@@ -61,16 +70,6 @@
 	box-shadow: 0 0 8px 3px var(--box-shadow-color);
 }
 
-.project-preview  {
-	margin: 0px;
-	width: 40%;
-	height: 100%;
-	border-top-right-radius: 7px;
-	border-bottom-right-radius: 7px;
-	float: right;
-	object-fit: cover;
-}
-
 .project-tools {
 	display: flex;
 	height: 30px;
@@ -79,7 +78,7 @@
 	padding-top: 0;
 }
 
-.project-tools img {
+.project-tools svg {
 	height: 100%;
 	margin-right: 5px;
 }
