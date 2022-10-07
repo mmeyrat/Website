@@ -22,6 +22,15 @@
 #title h1 {
 	margin: 0;
 	text-indent: 3%;
+	cursor: default;
+}
+
+#title-name {
+	display: flex;
+}
+
+#R {
+	cursor: pointer;
 }
 
 #title svg {
