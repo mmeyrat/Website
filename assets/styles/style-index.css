@@ -8,6 +8,12 @@
 	--navbar-height: 60px;
 }
 
+#navbar a:first-child {
+	text-decoration: underline var(--palette-color);
+	text-underline-offset: 6px;
+	text-decoration-thickness: 3px;
+}
+
 #title-container {
     display: flex;
 	position: fixed;
@@ -133,7 +139,7 @@
 
 #copyright-full {
 	position: fixed;
-	width: 50%;
+	width: 100%;
 }
 
 #copyright-full span {
@@ -254,7 +260,7 @@ video {
 	video {
 		width: 100%;
 		height: calc(100% - var(--navbar-height));
-		bottom: 0;
+		top: 0;
 	}
 }
 

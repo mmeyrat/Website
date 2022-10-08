@@ -6,6 +6,12 @@
 	--text-main-color: #000;
 }
 
+#navbar a:last-child {
+	text-decoration: underline var(--palette-color);
+	text-underline-offset: 6px;
+	text-decoration-thickness: 3px;
+}
+
 #page {
 	background-color: var(--page-bg-color);
     min-height: 100%;
