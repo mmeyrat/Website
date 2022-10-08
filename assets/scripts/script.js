@@ -6,7 +6,7 @@ function startEasterEgg() {
 	if (clickCount == 2) {
 		let video = `<video autoplay loop>
 						<source src='./assets/images/video.mp4' type='video/mp4'>
-					 </video>`
+					 </video>`;
 		document.getElementsByTagName("body")[0].innerHTML += video;
 	}
 }

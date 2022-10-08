@@ -13,7 +13,7 @@
 	position: fixed;
 	color: var(--text-main-color);
 	height: 100%;
-	width: 45%;
+	width: 48%;
 	font-size: 3.5vw;
 	line-height: 7vw;
 	text-shadow: -6px 6px 0 var(--palette-color);
@@ -58,22 +58,21 @@
 }
 
 #page {
-	display: table-row;
+	display: flex;
 	position: absolute;
 	background-color: var(--page-bg-color);
 	width: 55%;
-    min-height: 100%;
 	height: auto;
-	right: 0;
-	clip-path: polygon(15% 0%, 100% 0%, 100% 100%, 0% 100%);
-	box-sizing: border-box;
+    min-height: 100%;
 	padding-bottom: 2%;
 	padding-top: 7%;
-	padding-left: 11%;
+	padding-left: 10%;
 	padding-right: 4%;
-	display: flex;
+	right: 0;
 	flex-direction: column;
-	justify-content: space-around;
+	justify-content: space-evenly;
+	box-sizing: border-box;
+	clip-path: polygon(15% 0%, 100% 0%, 100% 100%, 0% 100%);
 }
 
 #page h2 {
