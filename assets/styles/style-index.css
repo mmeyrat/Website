@@ -9,14 +9,18 @@
 }
 
 #title-container {
+    display: flex;
+	position: fixed;
 	color: var(--text-main-color);
-	text-shadow: -6px 6px 0 var(--palette-color);
-	margin-left: 6%;
-	margin-top: 26vh;
+	height: 100%;
+	width: 45%;
 	font-size: 3.5vw;
 	line-height: 7vw;
-	position: fixed;
+	text-shadow: -6px 6px 0 var(--palette-color);
+	user-select: none;
 	z-index: 2;
+    align-items: center;
+    justify-content: center;
 }
 
 #title h1 {
@@ -154,11 +158,12 @@ video {
 
 	#title-container {
 		display: flex;
-		text-shadow: -4px 4px 0 var(--palette-color);
 		position: relative;
+		width: 100%;
+		margin: 0;
 		line-height: 14vw;
     	font-size: 7vw;
-		margin: 0;
+		text-shadow: -4px 4px 0 var(--palette-color);
 	}
 
 	#title {

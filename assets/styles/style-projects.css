@@ -34,7 +34,6 @@
 	height: auto;
 	width: 47%;
 	border-radius: 7px;
-	hyphens: auto;
 	text-decoration: none;
 	overflow: hidden;
 	transition: transform 0.15s ease-in, box-shadow 0.15s ease-in;
@@ -76,7 +75,7 @@
 
 .project-tools {
 	display: flex;
-	height: 30px;
+	height: 25px;
 	padding: 6%;
 	padding-top: 0;
 	margin-top: auto;
@@ -117,6 +116,7 @@
 	}
 
 	.project-container {
+		hyphens: auto;
 		margin-bottom: 20px;
 	}
 }
