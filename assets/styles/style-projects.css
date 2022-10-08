@@ -14,7 +14,7 @@
 
 #page {
 	background-color: var(--page-bg-color);
-    min-height: 100%;
+	min-height: 100%;
 	width: 76%;
 	margin-left: 12%;
 	z-index: 2;
