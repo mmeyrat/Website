@@ -61,7 +61,7 @@
 	display: table-row;
 	position: absolute;
 	background-color: var(--page-bg-color);
-	width: 60%;
+	width: 55%;
     min-height: 100%;
 	height: auto;
 	right: 0;
@@ -144,7 +144,7 @@
 
 video {
 	position: fixed;
-	width: 50%;
+	width: 55%;
     height: calc(100% - var(--navbar-height) - 30px);
     margin-top: var(--navbar-height);
     object-fit: cover;
