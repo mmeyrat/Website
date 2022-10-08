@@ -145,8 +145,9 @@ video {
 	position: fixed;
 	width: 55%;
     height: calc(100% - var(--navbar-height) - 30px);
-    margin-top: var(--navbar-height);
+	margin-top: var(--navbar-height);
     object-fit: cover;
+	z-index: -1;
 }
 
 @media screen and (max-width: 1100px) {
@@ -156,7 +157,6 @@ video {
 	}
 
 	#title-container {
-		display: flex;
 		position: relative;
 		width: 100%;
 		margin: 0;
@@ -168,7 +168,7 @@ video {
 	#title {
 		display: flex;
 		flex-flow: column;
-		height: 100vh;
+		height: 100%;
 		width: 100%;
 		min-height: 30vw;
 		margin-left: 7%;
@@ -181,6 +181,7 @@ video {
 		height: 100%;
 		margin-top: var(--navbar-height);
 		text-align: center;
+		flex-grow: 1;
 		align-items: center;
 		justify-content: center;
 	}
@@ -204,6 +205,7 @@ video {
 
 	#page-shadow {
 		position: unset;
+		height: unset;
 		filter: none;
 	}
 
@@ -252,6 +254,7 @@ video {
 	video {
 		width: 100%;
 		height: calc(100% - var(--navbar-height));
+		bottom: 0;
 	}
 }
 
