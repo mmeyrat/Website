@@ -1,0 +1,132 @@
+:root {
+	--box-shadow-color: #999;
+	--palette-color: #C5BEF9;
+	--page-bg-color: #EEE;
+	--container-color: #FFF;
+	--text-main-color: #000;
+}
+
+#navbar a:last-child {
+	text-decoration: underline var(--palette-color);
+	text-underline-offset: 6px;
+	text-decoration-thickness: 3px;
+}
+
+#page {
+	background-color: var(--page-bg-color);
+	min-height: 100%;
+	width: 76%;
+	margin-left: 12%;
+	z-index: 2;
+	box-shadow: 0 0 10px var(--box-shadow-color);
+	position: absolute;
+}
+
+#careers-container {
+	margin: 1%;
+	margin-top: 110px;
+	margin-bottom: 60px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+}
+
+.career-container {
+	width: 50%;
+}
+
+.experience {
+	display: flex;
+	margin-right: 10%;
+}
+
+.experience div:last-child {
+	margin-bottom: 15px;
+}
+
+.experience:last-child div:last-child {
+	margin-bottom: 0px;
+}
+
+.sphere {
+	width: 16px;
+	height: 16px;
+	border-radius: 45px;
+	margin: 15px;
+	margin-bottom: 0px;
+	margin-top: 19px;
+	border: 4px solid #222;
+}
+
+.line {
+	height: calc(100% - 24px);
+	margin-left: 25px;
+	border-style: unset;
+	border-left: 3px dashed #222;
+}
+
+#page h2 {
+	margin: 10px;
+	margin-bottom: 25px;
+	font-size: 30px;
+}
+
+#keywords {
+	display: flex;
+	flex-wrap: wrap;
+	font-family: tommy;
+	height: auto;
+	width: 100%;
+}
+
+#keywords span {
+	margin: 2px;
+	padding: 4px;
+}
+
+#keywords span:first-child {
+	margin-left: 0px;
+	padding-left: 0px;
+	text-decoration: underline;
+}
+
+#keywords span:not(:first-child) {
+	background-color: #000;
+	border-radius: 5px;
+	color: #FFF;
+}
+
+.copyright span {
+	text-align: center;
+}
+
+@media screen and (max-width: 1100px) {
+	
+	.experience-container {
+		width: 100%;
+		margin-bottom: 50px;
+	}
+}
+
+@media screen and (max-width: 700px) {
+
+	body {
+		background-image: none;
+	}
+
+	#page {
+		width: 100%;
+		margin-left: 0;
+	}
+}
+
+@media (prefers-color-scheme: dark) {
+
+	:root {
+		--box-shadow-color: #000;
+		--page-bg-color: #131313;
+		--container-color: #222;
+		--palette-color: #948ada;
+		--text-main-color: #FFF;
+	}
+}

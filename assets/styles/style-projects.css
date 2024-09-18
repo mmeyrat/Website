@@ -6,7 +6,7 @@
 	--text-main-color: #000;
 }
 
-#navbar a:last-child {
+#navbar a:nth-child(2) {
 	text-decoration: underline var(--palette-color);
 	text-underline-offset: 6px;
 	text-decoration-thickness: 3px;
@@ -81,7 +81,7 @@
 
 .project-tools {
 	display: flex;
-	height: 25px;
+	height: 28px;
 	padding: 6%;
 	padding-top: 0;
 	margin-top: auto;
