@@ -1,11 +1,3 @@
-:root {
-	--box-shadow-color: #999;
-	--palette-color: #C5BEF9;
-	--page-bg-color: #EEE;
-	--container-color: #FFF;
-	--text-main-color: #000;
-}
-
 #navbar a:nth-child(2) {
 	text-decoration: underline var(--palette-color);
 	text-underline-offset: 6px;
@@ -124,16 +116,5 @@
 	.project-container {
 		hyphens: auto;
 		margin-bottom: 20px;
-	}
-}
-
-@media (prefers-color-scheme: dark) {
-
-	:root {
-		--box-shadow-color: #000;
-		--page-bg-color: #131313;
-		--container-color: #222;
-		--palette-color: #948ada;
-		--text-main-color: #FFF;
 	}
 }

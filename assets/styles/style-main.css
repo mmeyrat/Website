@@ -18,14 +18,16 @@
 }
 
 :root {
+	--box-shadow-color: #999;
+	--container-color: #FFF;
 	--grid-bg-color: #FFF;
 	--grid-line-color: #BBB;
 	--moz-grid-line-color: #EEE;
-	--box-shadow-color: #AAA;
 	--navbar-bg-color: #222;
 	--text-main-color: #000;
 	--text-navbar-color: #FFF;
 	--text-navbar-hover-color: #000;
+	--page-bg-color: #EEE;
 	--palette-color: #C5BEF9;
 
 	--navbar-height: 60px;
@@ -69,7 +71,7 @@ header {
 
 #navbar {
 	display: table;
-	width: 40%;
+	width: 50%;
 	margin: 0;
 	padding: 0;
 	table-layout: fixed;
@@ -120,15 +122,11 @@ header {
 @media screen and (max-width: 1100px) {
 
 	#navbar {
-		width: 70%;
+		width: 100%;
 	}
 }
 
 @media screen and (max-width: 700px) {
-
-	#navbar {
-		width: 100%;
-	}
 
 	#navbar a {
 		font-size: 18px;
@@ -138,12 +136,15 @@ header {
 @media (prefers-color-scheme: dark) {
 
 	:root {
-		--text-main-color: #FFF;
+		--box-shadow-color: #000;
+		--container-color: #222;
 		--grid-bg-color: #000;
 		--grid-line-color: #666;
 		--moz-grid-line-color: #333;
 		--navbar-bg-color: #1F1F1F;
+		--page-bg-color: #131313;
 		--palette-color: #948ada;
+		--text-main-color: #FFF;
 	}
 
 	svg {

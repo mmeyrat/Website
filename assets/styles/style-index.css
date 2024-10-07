@@ -1,13 +1,3 @@
-:root {
-	--box-shadow-color: #999;
-	--palette-color: #C5BEF9;
-	--page-bg-color: #EEE;
-	--container-color: #FFF;
-	--text-main-color: #000;
-
-	--navbar-height: 60px;
-}
-
 #navbar a:first-child {
 	text-decoration: underline var(--palette-color);
 	text-underline-offset: 6px;
@@ -291,16 +281,5 @@ video {
 	#title-container {
 		line-height: 10vw;
 		font-size: 5vw;
-	}
-}
-
-@media (prefers-color-scheme: dark) {
-
-	:root {
-		--box-shadow-color: #000;
-		--page-bg-color: #131313;
-		--container-color: #222;
-		--palette-color: #948ada;
-		--text-main-color: #FFF;
 	}
 }
