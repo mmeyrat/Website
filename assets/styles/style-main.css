@@ -39,78 +39,79 @@ html {
 }
 
 body {
-	color: var(--text-main-color);
-	width: 100%;
-	height: 100%;
-	margin: 0;
-	font-family: Cocogoose;
-	background-size: 50px 50px;
+	animation: gridAnim 20s linear infinite running;
 	background-color: var(--grid-bg-color);
 	background-image:
 		linear-gradient(to right, var(--grid-line-color) 1px, transparent 1px),
 		linear-gradient(to bottom, var(--grid-line-color) 1px, transparent 1px);
 	background-position: 0px 0px;
-	animation: gridAnim 20s linear infinite running;
+	background-size: 50px 50px;
+	color: var(--text-main-color);
+	font-family: Cocogoose;
+	height: 100%;
+	margin: 0;
+	text-underline-offset: 2px;
+	width: 100%;
 }
 
 p {
-	text-align: justify;
 	font-family: Tommy;
 	margin-top: 0;
+	text-align: justify;
 }
 
 header {
 	background: var(--navbar-bg-color);
-	display: flex;
-	position: fixed;
-	z-index: 3;
-	width: 100%;
-	height: var(--navbar-height);
 	box-shadow: 0 5px 10px var(--box-shadow-color);
+	display: flex;
+	height: var(--navbar-height);
+	position: fixed;
+	width: 100%;
+	z-index: 3;
 }
 
 #navbar {
 	display: table;
-	width: 50%;
 	margin: 0;
 	padding: 0;
 	table-layout: fixed;
+	width: 50%;
 }
 
 #navbar a {
-	display: table-cell;
 	color: var(--text-navbar-color);
+	display: table-cell;
 	font-size: 20px;
 	list-style-type: none;
-	text-decoration: none;
 	text-align: center;
-	vertical-align: middle;
+	text-decoration: none;
 	transition: background-color 0.4s, color 0.4s;
+	vertical-align: middle;
 }
 
 #navbar a:hover {
 	background-color: var(--palette-color);
-	cursor: pointer;
 	color: var(--text-navbar-hover-color);
+	cursor: pointer;
 }
 
 #page h2 {
-	margin: 0px;
 	font-size: 40px;
+	margin: 0px;
 }
 
 .copyright {
+	background-color: var(--navbar-bg-color);
+	bottom: 0;
+	color: var(--text-navbar-color);
 	display: table;
+	font-size: 12px;
+	height: 20px;
+	left: 0;
+	padding-bottom: 5px;
+	padding-top: 5px;
 	position: absolute;
 	width: 100%;
-	height: 20px;
-	bottom: 0;
-	left: 0;
-	padding-top: 5px;
-	padding-bottom: 5px;
-	background-color: var(--navbar-bg-color);
-	color: var(--text-navbar-color);
-	font-size: 12px;
 	z-index: 0;
 }
 
@@ -126,7 +127,7 @@ header {
 	}
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 600px) {
 
 	#navbar a {
 		font-size: 18px;
